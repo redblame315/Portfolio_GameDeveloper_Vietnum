@@ -12,50 +12,6 @@
 // import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.jpg';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import porfolioImage12 from '../images/portfolio/portfolio-12.jpg';
-import porfolioImage13 from '../images/portfolio/portfolio-13.jpg';
-import porfolioImage14 from '../images/portfolio/portfolio-14.jpg';
-import porfolioImage15 from '../images/portfolio/portfolio-15.jpg';
-import porfolioImage16 from '../images/portfolio/portfolio-16.jpg';
-import porfolioImage17 from '../images/portfolio/portfolio-17.jpg';
-import porfolioImage18 from '../images/portfolio/portfolio-18.jpg';
-import porfolioImage19 from '../images/portfolio/portfolio-19.jpg';
-import porfolioImage20 from '../images/portfolio/portfolio-20.jpg';
-import porfolioImage21 from '../images/portfolio/portfolio-21.jpg';
-import porfolioImage22 from '../images/portfolio/portfolio-22.jpg';
-import porfolioImage23 from '../images/portfolio/portfolio-23.jpg';
-import porfolioImage24 from '../images/portfolio/portfolio-24.jpg';
-import porfolioImage25 from '../images/portfolio/portfolio-25.jpg';
-import porfolioImage26 from '../images/portfolio/portfolio-26.jpg';
-import porfolioImage27 from '../images/portfolio/portfolio-27.jpg';
-import porfolioImage28 from '../images/portfolio/portfolio-28.jpg';
-import porfolioImage29 from '../images/portfolio/portfolio-29.jpg';
-import porfolioImage30 from '../images/portfolio/portfolio-30.jpg';
-import porfolioImage31 from '../images/portfolio/portfolio-31.jpg';
-import porfolioImage32 from '../images/portfolio/portfolio-32.jpg';
-import porfolioImage33 from '../images/portfolio/portfolio-33.jpg';
-import porfolioImage34 from '../images/portfolio/portfolio-34.jpg';
-import porfolioImage35 from '../images/portfolio/portfolio-35.jpg';
-import porfolioImage36 from '../images/portfolio/portfolio-36.jpg';
-import porfolioImage37 from '../images/portfolio/portfolio-37.jpg';
-import porfolioImage38 from '../images/portfolio/portfolio-38.jpg';
-import porfolioImage39 from '../images/portfolio/portfolio-39.jpg';
-import porfolioImage40 from '../images/portfolio/portfolio-40.jpg';
-import porfolioImage41 from '../images/portfolio/portfolio-41.jpg';
-import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
 import {
   About,
   ContactSection,
@@ -97,7 +53,7 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  * Hero section
  */
 export const heroData: Hero = {
-  imageSrc: heroImage,
+  imageSrc: '/images/header-background.jpg',
   name: `I'm BUI DUY TUNG.`,
   description: (
     <>
@@ -125,7 +81,7 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  profileImageSrc: profilepic,
+  profileImageSrc: '/images/profilepic.jpg',
   description: "Hello, There! This is BUI DUY TUNG from Vietnam who is a highly skilled and experienced Backend Developer with over 7 years of expertise in developing and managing complex game projects. My journey in game development began with a Bachelor's degree in Computer Science from the Ohio University, where I honed my technical skills and cultivated a deep passion for creating immersive gaming experiences.  Throughout my career, I have proven my proficiency in utilizing various game development engines such as Unity, Unreal Engine, Godot, Cocos Creator and HTML game engine(PixiJs, PhaerJS, CreateJS). These tools have enabled me to craft engaging and high-performance games that captivate players. My backend expertise includes working with technologies like Mirrors, Photon Cloud, Reactor, Socket.io, and SFS2X, along with cloud platforms like Firebase and blockchain integration, ensuring robust and scalable game infrastructures.    As a developer, I am adept at leading cross-functional teams, optimizing game performance, and ensuring seamless integration of game components. I have a strong track record of Designing the whole project architecture, implementing robust CI/CD pipelines, enhancing game security, and improving user engagement through innovative solutions.    My experience spans developing MMORPGs, hyper-casual games, and interactive applications, where I consistently strive to push the boundaries of what is possible in game development. I am passionate about leveraging the latest technologies and methodologies to deliver exceptional gaming experiences.    I invite you to explore my portfolio to see examples of my work and learn more about the projects I have contributed to. Thank you for visiting, and I look forward to connecting with you",
   aboutItems: [
     // { label: 'Location', text: 'COLUMBUS, OH', Icon: MapIcon },
@@ -275,247 +231,247 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Zomfi',
     description: '',
     url: 'https://go.screenpal.com/watch/cZlhDmnnoCk',
-    image: porfolioImage41,
+    image: '/images/portfolio/portfolio-41.jpg',
   },
   {
     title: 'Tank',
     description: '',
     url: 'https://go.screenpal.com/watch/cZlhDmnnoCg',
-    image: porfolioImage40,
+    image: '/images/portfolio/portfolio-40.jpg',
   },
   {
     title: 'Smoloons',
     description: '',
     url: 'https://go.screenpal.com/watch/cZlhDmnnoCB',
-    image: porfolioImage39,
+    image: '/images/portfolio/portfolio-39.jpg',
   },
   {
     title: 'Martian-Games',
     description: '',
     url: 'https://go.screenpal.com/watch/cZlhDmnnoCA',
-    image: porfolioImage38,
+    image: '/images/portfolio/portfolio-38.jpg',
   },
   {
     title: 'Mobile FPS',
     description: '',
     url: 'https://go.screenpal.com/watch/cZlhrxnnDyt',
-    image: porfolioImage37,
+    image: '/images/portfolio/portfolio-37.jpg',
   },
   {
     title: 'Hedera',
     description: '',
     url: 'https://go.screenpal.com/watch/cZlhDmnnoCG',
-    image: porfolioImage36,
+    image: '/images/portfolio/portfolio-36.jpg',
   },
   {
     title: 'DexBattle',
     description: '',
     url: 'https://go.screenpal.com/watch/cZlhDmnnoCE',
-    image: porfolioImage35,
+    image: '/images/portfolio/portfolio-35.jpg',
   },
   {
     title: 'City',
     description: '',
     url: 'https://go.screenpal.com/watch/cZlhDmnnoC5',
-    image: porfolioImage34,
+    image: '/images/portfolio/portfolio-34.jpg',
   },
   {
     title: 'Car Collision',
     description: '',
     url: 'https://go.screenpal.com/watch/cZlhDmnnoCC',
-    image: porfolioImage33,
+    image: '/images/portfolio/portfolio-33.jpg',
   },
   {
     title: 'Botverg',
     description: '',
     url: 'https://go.screenpal.com/watch/cZlhDmnnoCp',
-    image: porfolioImage32,
+    image: '/images/portfolio/portfolio-32.jpg',
   },
   {
     title: 'Ares',
     description: 'ARES is an MMORPG FPS Game that is developed by Unreal Engine for frontend and SFS for backend',
     url: 'https://go.screenpal.com/watch/cZ6b6iVWGtg',
-    image: porfolioImage12,
+    image: '/images/portfolio/portfolio-12.jpg',
   },
   {
     title: 'King of Monster',
     description: 'The prototype of Pokeone type game filled with the small town where players can work around, battle with each other as well as NPC, catch wild Pokemon.',
     url: 'https://pokeoneblame.web.app/',
-    image: porfolioImage27,
+    image: '/images/portfolio/portfolio-27.jpg',
   },
   {
     title: 'Legends of Aria',
     description: 'Discover a world forged by players, where your choices write the story.',
     url: 'https://classic.legendsofaria.com/',
-    image: porfolioImage31,
+    image: '/images/portfolio/portfolio-31.jpg',
   },
   {
     title: 'Diluvion',
     description: 'Diluvion is a 3D deep sea, Jules Verne inspired, exploration game with RPG elements and thrilling submarine combat.',
     url: 'http://www.diluvion.com/',
-    image: porfolioImage30,
+    image: '/images/portfolio/portfolio-30.jpg',
   },
   {
     title: 'PowVista',
     description: 'Skate into a multiplayer world, battle legendary creatures, and craft your own epic adventure!',
     url: 'https://powvista.com/',
-    image: porfolioImage28,
+    image: '/images/portfolio/portfolio-28.jpg',
   },
   {
     title: 'Spin Game based on Phaser',
     description: 'Lucky Spin Landing page which is developed by Phaser',
     url: 'https://spinongame.web.app/',
-    image: porfolioImage29,
+    image: '/images/portfolio/portfolio-29.jpg',
   },
   {
     title: 'Jumping',
     description: 'Unity + MetaMask game with specific jumping physics mechanism',
     url: 'https://jumping-c2d3d.web.app/',
-    image: porfolioImage7,
+    image: '/images/portfolio/portfolio-7.jpg',
   },
   {
     title: 'Chess Game',
     description: 'Online Chess Game with Unity and Photon Cloud',
     url: 'https://chess-blame.web.app/',
-    image: porfolioImage10,
+    image: '/images/portfolio/portfolio-10.jpg',
   },
   {
     title: 'Ludo Game',
     description: 'Online Pad Game with Unity and NodeJS where you can play Ludo Game in Online Mode.',
     url: 'https://screenpal.com/watch/c0fY6DVz6Py',
-    image: porfolioImage16,
+    image: '/images/portfolio/portfolio-16.jpg',
   },
   {
     title: 'ChatBot',
     description: 'ChatBot talk to user using the OpenAI and TTS Service.',
     url: 'https://chatbot-openai.web.app/',
-    image: porfolioImage11,
+    image: '/images/portfolio/portfolio-11.jpg',
   },
   {
     title: 'Gallery Design',
     description: 'Gallery Design Project where you can place several kinds of props in the UI Bar to the 3D Roomd Model. Please use the following user authentication to login the admin site.(SiteLink:https://gallery-design.web.app/, Username:Blame Password:123)',
     url: 'https://somup.com/c0e0Xpys5o',
-    image: porfolioImage15,
+    image: '/images/portfolio/portfolio-15.jpg',
   },
   {
     title: 'City Builder',
     description: 'City Build type game where players can manage the economy, infrastructure and services to create a thriving and sustainable city that supports a growing population',
     url: 'https://somup.com/c0fYei4wDl',
-    image: porfolioImage20,
+    image: '/images/portfolio/portfolio-20.jpg',
   },
   {
     title: 'Hunting Game',
     description: 'Huntime game where players try to improve their shooting skills through various levels of difficulties',
     url: 'https://somup.com/c0fb2p4OYL',
-    image: porfolioImage19,
+    image: '/images/portfolio/portfolio-19.jpg',
   },
   {
     title: 'StarFox',
     description: 'StarFox prototype where a Spaceship shoots the enemies in the rail system space',
     url: 'https://somup.com/c0fDeZ4ZBn',
-    image: porfolioImage18,
+    image: '/images/portfolio/portfolio-18.jpg',
   },
   {
     title: 'Ship Simulation',
     description: 'THe Simulation Project which immerses the player in controlling the ship with peculiar device where the captain, ship, route, weather should be selected.',
     url: 'https://screencast-o-matic.com/watch/c3lVIwVUN84',
-    image: porfolioImage13,
+    image: '/images/portfolio/portfolio-13.jpg',
   },
   {
     title: 'Cutting Cube Bunny Girl',
     description: 'Bunny Girl Bot cut the cube with the specific accuracy and speed.',
     url: 'https://screencast-o-matic.com/watch/c3XTDwVUgSf',
-    image: porfolioImage14,
+    image: '/images/portfolio/portfolio-14.jpg',
   },
   {
     title: 'Brave Climber',
     description: 'Climb Simulation Project which immerses you in feeling like climbing along the precipice.',
     url: 'https://screenpal.com/watch/c0fY6YVz69l',
-    image: porfolioImage17,
+    image: '/images/portfolio/portfolio-17.jpg',
   },
   {
     title: 'Fight Club',
     description: '3D Action game where player fight and kill the enemy to complete the quests.',
     url: 'https://screenpal.com/watch/c0fO2EVzunJ',
-    image: porfolioImage22,
+    image: '/images/portfolio/portfolio-22.jpg',
   },
   {
     title: 'BringBackMemory',
     description: 'Point Click 2d Adventure Game where main character picks up the objects in the room and brings back the memory of the past.',
     url: 'https://somup.com/c0f3e144pn',
-    image: porfolioImage21,
+    image: '/images/portfolio/portfolio-21.jpg',
   },
   {
     title: 'Car Simulation',
     description: 'Simulate the Physics of Driving Car',
     url: 'https://screenpal.com/watch/c0fYoQVzXsa',
-    image: porfolioImage6,
+    image: '/images/portfolio/portfolio-6.jpg',
   },
   {
     title: 'GtaType Game',
     description: 'GtaType Game where players can drive car, ride motocycle, shoot a gun and so on.',
     url: 'https://screenpal.com/watch/c0fYolVzXM3',
-    image: porfolioImage8,
+    image: '/images/portfolio/portfolio-8.jpg',
   },
   {
     title: 'Wheel',
     description: 'Endless Runner game where the player earns the diamonds dodging the obstacles.',
     url: 'https://screenpal.com/watch/c0fYqDVzlBm',
-    image: porfolioImage23,
+    image: '/images/portfolio/portfolio-23.jpg',
   },
   {
     title: 'Color Rush',
     description: 'Physics Runner Game.',
     url: 'https://screenpal.com/watch/c0fYoNVzlcC',
-    image: porfolioImage4,
+    image: '/images/portfolio/portfolio-4.jpg',
   },
   {
     title: 'Puzzle Blust',
     description: 'Hyper casual game of three match mechanism.',
     url: 'https://screenpal.com/watch/c0fYo8VzlcL',
-    image: porfolioImage1,
+    image: '/images/portfolio/portfolio-1.jpg',
   },
   {
     title: '8 Ball Game',
     description: '8 Ball Game with AI bot and Mutiplayer mechanics',
     url: 'https://screenpal.com/watch/c0euVHVa17n',
-    image: porfolioImage3,
+    image: '/images/portfolio/portfolio-3.jpg',
   },
   {
     title: 'Bubble Shooter',
     description: 'Hyper casual game of bubble shooter',
     url: 'https://screenpal.com/watch/c0fYDeVzlnU',
-    image: porfolioImage2,
+    image: '/images/portfolio/portfolio-2.jpg',
   },
   {
     title: 'Gold Miner',
     description: 'Hyper casual game of Gold Miner',
     url: 'https://screencast-o-matic.com/watch/c0eo2ZV4w81',
-    image: porfolioImage9,
+    image: '/images/portfolio/portfolio-9.jpg',
   },
   {
     title: 'Candy Crush Sugar',
     description: 'Hyper casual 3 Match Game.',
     url: 'https://screenpal.com/watch/c0hVlUVzkD8',
-    image: porfolioImage5,
+    image: '/images/portfolio/portfolio-5.jpg',
   },
   {
     title: 'Plinko',
     description: 'Casino Game where the ball is falling and bouncing off the triangle pattern pegs and eventually lands in one of the slots in the bottom of the screen.',
     url: 'https://plinkoblame.web.app/',
-    image: porfolioImage26,
+    image: '/images/portfolio/portfolio-26.jpg',
   },
   {
     title: 'SlotMahcine',
     description: 'Slot Mahcine Game 777 using Unity C#.',
     url: 'https://screenpal.com/watch/c0hlqYVAlLr',
-    image: porfolioImage24,
+    image: '/images/portfolio/portfolio-24.jpg',
   },
   {
     title: 'Lucky Spin',
     description: 'Spin Game where players can spin a wheel to win prizes and rewards. This game is based on chance and players have no control over outcomes.',
     url: 'https://luckyspinblame-beta.web.app/',
-    image: porfolioImage25,
+    image: '/images/portfolio/portfolio-25.jpg',
   }
 ];
 
@@ -544,43 +500,41 @@ export const experience: TimelineItem[] = [
     location: 'Ho Chi Minh City, Vietnam',
     title: 'Ruby Game Studio - Senior Game Engineer',
     content: (
-      <p></p>
-      // <p>
-      //   • Developed and maintained the backend infrastructure for "Legends of Aria Classic" using Unity Mirror, supporting real-time synchronization for up to 10,000 concurrent players, and Socket.io with ExpressJS for efficient server-side operations.<br />
-      //   • Implemented MongoDB for data management, handling over 1 million player records with average query times under 50ms, and ensuring data encryption at rest.<br />
-      //   • Led the development of the Online Whot Card Game, integrating Unity for game development, Socket.io for user authentication, and Golang for game logic, resulting in a 40% increase in user retention.<br />
-      //   • Implemented gRPC for efficient communication between Socket.io with TypeScript and Golang servers, reducing latency by 30%.<br />
-      //   • Managed the deployment of the Online Whot Card Game on AWS, achieving a 99.9% uptime by utilizing EC2 instances for scalable computing and S3 for secure, durable storage.<br />
-      //   • Developed HTML5 casino games such as SpinWheel, Plinko, Dice, and Hilo using PixiJS, PhaserJS, and CreateJS, attracting 20,000 new users within two months.<br />
-      //   • Spearheaded the development of a ship simulation game using Unreal Engine, enhancing user experience with realistic ship control via a joystick device.<br />
-      //   • Directed a team of 10 developers and designers, ensuring project milestones were met on time and within budget.<br />
-      //   • Improved game stability and performance by conducting regular code reviews and optimizing server-side logic.<br />
-      //   • Reduced customer support tickets by 20% through effective debugging and patching of issues pre- and post-launch.<br />
-      //   • Leveraged project management tools to track progress, allocate resources efficiently, and ensure timely delivery of project components.<br />
-      // </p>
+      <p>
+        • Developed and maintained the backend infrastructure for "Legends of Aria Classic" using Unity Mirror, supporting real-time synchronization for up to 10,000 concurrent players, and Socket.io with ExpressJS for efficient server-side operations.<br />
+        • Implemented MongoDB for data management, handling over 1 million player records with average query times under 50ms, and ensuring data encryption at rest.<br />
+        • Led the development of the Online Whot Card Game, integrating Unity for game development, Socket.io for user authentication, and Golang for game logic, resulting in a 40% increase in user retention.<br />
+        • Implemented gRPC for efficient communication between Socket.io with TypeScript and Golang servers, reducing latency by 30%.<br />
+        • Managed the deployment of the Online Whot Card Game on AWS, achieving a 99.9% uptime by utilizing EC2 instances for scalable computing and S3 for secure, durable storage.<br />
+        • Developed HTML5 casino games such as SpinWheel, Plinko, Dice, and Hilo using PixiJS, PhaserJS, and CreateJS, attracting 20,000 new users within two months.<br />
+        • Spearheaded the development of a ship simulation game using Unreal Engine, enhancing user experience with realistic ship control via a joystick device.<br />
+        • Directed a team of 10 developers and designers, ensuring project milestones were met on time and within budget.<br />
+        • Improved game stability and performance by conducting regular code reviews and optimizing server-side logic.<br />
+        • Reduced customer support tickets by 20% through effective debugging and patching of issues pre- and post-launch.<br />
+        • Leveraged project management tools to track progress, allocate resources efficiently, and ensure timely delivery of project components.<br />
+      </p>
     ),
   },
   {
     date: 'Jul 2016 - Nov 2020',
-    location: 'Ho Chi Minh City, Vietnam',
-    title: 'JOY Entertainment - Junior Game Developer',
+    location: 'Paris, France',
+    title: 'Gameloft SE - Junior Game Developer(Remote)',
     content: (
-      <p></p>
-      // <p>
-      //   • Assisted in developing "Diluvion," a 3D deep-sea RPG using Unity and C#, contributing to its success across PC, Mac, and Linux platforms.<br />
-      //   • Collaborated on creating immersive underwater environments with Unity’s HDRP, leading to a 20% increase in user engagement and extending average play sessions by 30 minutes.<br />
-      //   • Implemented submarine combat mechanics using Unity's Physics Engine and Rigidbody components, contributing to a 25% increase in player retention rates.<br />
-      //   • Integrated custom shaders with Unity’s Shader Graph to simulate underwater light effects, enhancing visual immersion and leading to a 35% increase in user satisfaction.<br />
-      //   • Developed an Online Casino WebGL Game using Cocos Creator, increasing user engagement by 25% through interactive gameplay features.<br />
-      //   • Created and implemented popular card games such as Mus, Spades, and Blackjack, enhancing the gaming portfolio and attracting 15,000 new users within the first quarter.<br />
-      //   • Led the development of the "Brave Climber" human character action simulation game using Unreal Engine, receiving positive user feedback and high engagement rates.<br />
-      //   • Developed "Nimble Girl," a human cutting action simulation game using Unreal Engine, resulting in over 50,000 downloads in the first month.<br />
-      //   • Produced various hyper-casual games that collectively garnered over 100,000 downloads and maintained high user retention rates.<br />
-      //   • Created 3 match games using Unity, including "Candy" and "Bubble Shooter," which achieved a 20% increase in user retention through engaging mechanics.<br />
-      //   • Implemented advanced game physics and AI for more realistic gameplay experiences in simulation games.<br />
-      //   • Enhanced game performance by optimizing code, reducing load times by 15%, and improving overall user experience.<br />
-      //   • Collaborated with cross-functional teams to ensure seamless integration of game assets and mechanics, leading to a smoother development process.<br />
-      // </p>
+      <p>
+        • Assisted in developing "Diluvion," a 3D deep-sea RPG using Unity and C#, contributing to its success across PC, Mac, and Linux platforms.<br />
+        • Collaborated on creating immersive underwater environments with Unity's HDRP, leading to a 20% increase in user engagement and extending average play sessions by 30 minutes.<br />
+        • Implemented submarine combat mechanics using Unity's Physics Engine and Rigidbody components, contributing to a 25% increase in player retention rates.<br />
+        • Integrated custom shaders with Unity's Shader Graph to simulate underwater light effects, enhancing visual immersion and leading to a 35% increase in user satisfaction.<br />
+        • Developed an Online Casino WebGL Game using Cocos Creator, increasing user engagement by 25% through interactive gameplay features.<br />
+        • Created and implemented popular card games such as Mus, Spades, and Blackjack, enhancing the gaming portfolio and attracting 15,000 new users within the first quarter.<br />
+        • Led the development of the "Brave Climber" human character action simulation game using Unreal Engine, receiving positive user feedback and high engagement rates.<br />
+        • Developed "Nimble Girl," a human cutting action simulation game using Unreal Engine, resulting in over 50,000 downloads in the first month.<br />
+        • Produced various hyper-casual games that collectively garnered over 100,000 downloads and maintained high user retention rates.<br />
+        • Created 3 match games using Unity, including "Candy" and "Bubble Shooter," which achieved a 20% increase in user retention through engaging mechanics.<br />
+        • Implemented advanced game physics and AI for more realistic gameplay experiences in simulation games.<br />
+        • Enhanced game performance by optimizing code, reducing load times by 15%, and improving overall user experience.<br />
+        • Collaborated with cross-functional teams to ensure seamless integration of game assets and mechanics, leading to a smoother development process.<br />
+      </p>
     ),
   },
 ];
@@ -589,7 +543,7 @@ export const experience: TimelineItem[] = [
  * Testimonial section
  */
 export const testimonial: TestimonialSection = {
-  imageSrc: testimonialImage,
+  imageSrc: '/images/testimonial.webp',
   testimonials: [
     {
       name: 'John Doe',

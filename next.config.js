@@ -2,7 +2,7 @@
 
 // https://github.com/vercel/next.js/blob/master/packages/next/next-server/server/config.ts
 const nextConfig = {
-  webpack: config => {
+  webpack: (config, { isServer }) => {
     
     const oneOfRule = config.module.rules.find(rule => rule.oneOf);
     
@@ -30,8 +30,7 @@ const nextConfig = {
   trailingSlash: false,
   images: {
     // domains: ['images.unsplash.com', 'source.unsplash.com'],
-    loader: "custom",
-    unoptimized : true,
+    unoptimized: true,
   },  
 };
 
